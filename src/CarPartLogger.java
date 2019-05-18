@@ -16,6 +16,7 @@ public class CarPartLogger {
 			return 0;
 		}
 		// Creates Connection with SQL server
+		// We Have A connection Class in the Same Package
 		Connection conn = getNewConnection.getSQLConnection();
 		// MaxPartId is the integer value of highest PartId available in the system
 		int maxPartId = 0;
